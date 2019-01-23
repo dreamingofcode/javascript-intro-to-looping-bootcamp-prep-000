@@ -4,13 +4,16 @@ function forLoop(array) {
     {
   if (i === 1) {
       array.push('I am 1 strange loop.')
-      //the first run of the loop will add string above to array
-     } else {
+    } 
+    //the first run of the loop will add string above to array
+   
+     else {
       array.push(`I am ${i} strange loops.`)
-     }
-    }
+     }}
+     //the following loops after the first run will interpolate i and add that string into the array
     return array
 }
+
 let n= Math.floor(Math.random() * 100);
 //generates random number "n" ranging from 0-99
 
